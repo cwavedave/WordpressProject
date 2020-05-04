@@ -14,10 +14,10 @@
             <h3 class="headline headline--small">Explore</h3>
             <nav class="nav-list">
               <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Campuses</a></li>
+              <?php wp_nav_menu(array(
+               'theme_location' => 'footerLocationOne'
+             ));
+             ?> 
               </ul>
             </nav>
           </div>
@@ -26,9 +26,10 @@
             <h3 class="headline headline--small">Learn</h3>
             <nav class="nav-list">
               <ul>
-                <li><a href="#">Legal</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Careers</a></li>
+              <?php wp_nav_menu(array(
+               'theme_location' => 'footerLocationTwo'
+             ));
+             ?> 
               </ul>
             </nav>
           </div>

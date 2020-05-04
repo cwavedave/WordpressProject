@@ -10,9 +10,13 @@ wp_enqueue_script('js',get_theme_file_uri('/js/scripts-bundled.js'), NULL /* Has
 add_action('wp_enqueue_scripts','podcast_css'); 
 
 function university_features() {
+    register_nav_menu('headerMenuLocation', 'Header Menu Location');
+    register_nav_menu('footerLocationOne', 'Footer Location One' );
+    register_nav_menu('footerLocationTwo', 'Footer Location Two');
     add_theme_support('title-tag');
 } 
 
-add_action('after_setup_theme', 'university_features')
-?>
 
+add_action('after_setup_theme', 'university_features')
+// Hook for after theme sets up. 
+?>

@@ -50,3 +50,38 @@ Stack trace:
 #2 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/index.php(17): require('/Users/Creative...')
 #3 {main}
   thrown in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/page.php on line 11
+[01-May-2020 13:30:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/page.php on line 23 and exactly 1 expected in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-includes/post.php:6876
+Stack trace:
+#0 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/page.php(23): wp_get_post_parent_id()
+#1 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-includes/template-loader.php(106): include('/Users/Creative...')
+#2 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-blog-header.php(19): require_once('/Users/Creative...')
+#3 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/index.php(17): require('/Users/Creative...')
+#4 {main}
+  thrown in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-includes/post.php on line 6876
+[01-May-2020 13:37:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/page.php on line 23 and exactly 1 expected in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-includes/post.php:6876
+Stack trace:
+#0 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/page.php(23): wp_get_post_parent_id()
+#1 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-includes/template-loader.php(106): include('/Users/Creative...')
+#2 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-blog-header.php(19): require_once('/Users/Creative...')
+#3 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/index.php(17): require('/Users/Creative...')
+#4 {main}
+  thrown in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-includes/post.php on line 6876
+[01-May-2020 13:37:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/page.php on line 23 and exactly 1 expected in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-includes/post.php:6876
+Stack trace:
+#0 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/page.php(23): wp_get_post_parent_id()
+#1 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-includes/template-loader.php(106): include('/Users/Creative...')
+#2 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-blog-header.php(19): require_once('/Users/Creative...')
+#3 /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/index.php(17): require('/Users/Creative...')
+#4 {main}
+  thrown in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-includes/post.php on line 6876
+[03-May-2020 15:32:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/page.php on line 36
+[03-May-2020 15:33:09 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/page.php on line 39
+[03-May-2020 22:15:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/header.php on line 26
+[03-May-2020 22:15:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/header.php on line 26
+[04-May-2020 11:27:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/header.php on line 26
+[04-May-2020 11:29:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/header.php on line 26
+[04-May-2020 11:49:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/index.php on line 17
+[04-May-2020 11:50:02 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/index.php on line 17
+[04-May-2020 11:50:11 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/index.php on line 17
+[04-May-2020 12:08:00 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/index.php on line 27
+[04-May-2020 12:12:03 UTC] PHP Parse error:  syntax error, unexpected '4.5' (T_DNUMBER) in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/index.php on line 22

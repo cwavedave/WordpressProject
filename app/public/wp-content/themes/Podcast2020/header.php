@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes();?>>
     <head>
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <meta charset ="<?php bloginfo('charset'); ?>")> 
       <?php wp_head(); ?>
     </head> 
        <body>
@@ -12,13 +14,13 @@
       <div class="site-header__menu group">
         <nav class="main-navigation">
           <ul>
-            <li><a href="<?php echo site_url('/about-us')?>">About Us</a></li>
-            <li><a href="#">Programs</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Campuses</a></li>
-            <li><a href="#">Blog</a></li>
+             <?php wp_nav_menu(array(
+               'theme_location' => 'headerMenuLocation'
+             ));
+             ?> 
           </ul>
         </nav>
+         
         <div class="site-header__util">
           <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
           <a href="#" class="btn btn--small  btn--dark-orange float-left">Sign Up</a>
@@ -27,3 +29,5 @@
       </div>
     </div>
   </header>
+
+
