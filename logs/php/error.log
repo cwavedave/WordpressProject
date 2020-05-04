@@ -85,3 +85,4 @@ Stack trace:
 [04-May-2020 11:50:11 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/index.php on line 17
 [04-May-2020 12:08:00 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/index.php on line 27
 [04-May-2020 12:12:03 UTC] PHP Parse error:  syntax error, unexpected '4.5' (T_DNUMBER) in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/index.php on line 22
+[04-May-2020 12:54:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/CreativeWavelength/Local Sites/podcastwebsite/app/public/wp-content/themes/Podcast2020/single.php on line 30

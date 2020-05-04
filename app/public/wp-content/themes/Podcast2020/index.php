@@ -27,10 +27,16 @@
              <?php the_excerpt(); ?>
              <p><a class="btn btn--blue" href="<?php the_permalink();?>">continue reading &raquo;</a></p>
           </div>
+
+
           </div>
 
-     <?php } ?>
+     <?php }  
+          echo paginate_links();
+                    ?>
      
+
+
 
 This is the generic blog listing screen template
 </div>
